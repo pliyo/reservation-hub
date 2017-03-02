@@ -12,15 +12,15 @@ namespace ReservationHub.Core
             _reservations = new List<ReservationModel>();
         }
 
-        public void Book(int numberOfReservations)
+        public void Book(int numberOfReservations, string owner = null, string address = null)
         {
             for (int i = 0; i < numberOfReservations; i++)
             {
                 _reservations.Add(new ReservationModel()
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Address = "Hardcoded Address",
-                    Owner = "Hardcoded Owner",
+                    Address = address,
+                    Owner = owner,
                     RequestDate = DateTime.Now
                 });
             }
