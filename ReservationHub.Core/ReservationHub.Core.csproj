@@ -44,6 +44,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReservationModel.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReservationHub\ReservationHub.csproj">
+      <Project>{91d5cb5d-05ce-4f87-8cd9-8cbcc0bc09e5}</Project>
+      <Name>ReservationHub</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
