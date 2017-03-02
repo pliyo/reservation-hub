@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationHub", "Reservati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationHub.UnitTests", "ReservationHub.UnitTests\ReservationHub.UnitTests.csproj", "{FC37AEB2-6297-4091-B053-3DF8E5DD648D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationHub.IntegrationTests", "ReservationHub.IntegrationTests\ReservationHub.IntegrationTests.csproj", "{0FFAC7C8-567A-4DF9-9188-60111A328017}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationHub.Core", "ReservationHub.Core\ReservationHub.Core.csproj", "{844F7264-4F03-4774-9928-E68B22671346}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{FC37AEB2-6297-4091-B053-3DF8E5DD648D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC37AEB2-6297-4091-B053-3DF8E5DD648D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC37AEB2-6297-4091-B053-3DF8E5DD648D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FFAC7C8-567A-4DF9-9188-60111A328017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FFAC7C8-567A-4DF9-9188-60111A328017}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FFAC7C8-567A-4DF9-9188-60111A328017}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FFAC7C8-567A-4DF9-9188-60111A328017}.Release|Any CPU.Build.0 = Release|Any CPU
 		{844F7264-4F03-4774-9928-E68B22671346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{844F7264-4F03-4774-9928-E68B22671346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844F7264-4F03-4774-9928-E68B22671346}.Release|Any CPU.ActiveCfg = Release|Any CPU
