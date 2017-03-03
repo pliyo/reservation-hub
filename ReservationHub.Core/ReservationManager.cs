@@ -19,7 +19,7 @@ namespace ReservationHub.Core
                 _reservations.Add(new ReservationModel()
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Owner = owner,
+                    Owner = "Mr / Miss" + owner,
                     RequestDate = DateTime.Now
                 });
             }
